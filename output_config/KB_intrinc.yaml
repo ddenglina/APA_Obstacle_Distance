@@ -1,0 +1,54 @@
+%YAML:1.0
+---
+#内参和畸变系数  顺序:前 右 后 左 对应(0 1 2 3)
+cameraMatrix0: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [  312.8327277197194, 0, 643.1752133233771,
+                  0, 244.24539748818, 360.5092153942805,
+                  0, 0, 1 ]
+distCoeffs0: !!opencv-matrix
+   rows: 4
+   cols: 1
+   dt: d
+   data: [0.111447, -0.0116827, -0.00989675, 0.00166645]
+
+cameraMatrix1: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [313.0796354342139, 0, 642.7471848058151,
+                0, 244.5724463878863, 358.9474223677315,
+                0, 0, 1]
+distCoeffs1: !!opencv-matrix
+  rows: 4
+  cols: 1
+  dt: d
+  data: [0.10936, -0.00625536, -0.0111572, 0.00163456]
+
+cameraMatrix2: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [312.4353434515799, 0, 638.4456993818274,
+              0, 243.9194989752672, 359.0125399824539,
+              0, 0, 1]
+distCoeffs2: !!opencv-matrix
+  rows: 4
+  cols: 1
+  dt: d
+  data: [0.107031, -0.00753632, -0.011985, 0.00215466]
+
+cameraMatrix3: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [313.2874826633662, 0, 640.0160068553272,
+              0, 244.7780661094051, 362.6488676486654,
+              0, 0, 1]
+distCoeffs3: !!opencv-matrix
+  rows: 4
+  cols: 1
+  dt: d
+  data: [ 0.10975, -0.00686159, -0.0113075, 0.00173947]
